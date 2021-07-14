@@ -1,0 +1,420 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+  overflow-x: hidden !important;
+}
+
+img {
+  max-width: 100%;
+} 
+
+/* topo */
+#topo {
+  background: url(./../img/banner.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 660px;
+  color: #ffffff;
+  position: relative;
+}
+
+#topo .logo-container h1 {
+  font-weight: 900;
+  font-size: 60px;
+  margin-top: 56px;
+}
+
+#topo .logo-container h2 {
+  font-weight: 900;
+  font-size: 45px;
+}
+
+#topo .logo-container h2:after {
+  content: "";
+  display: block;
+  margin-top: 20px;
+  width: 55%;
+  height: 3px;
+  background-color: #ed8a2f;
+  position: absolute;
+  left: 0;
+}
+
+#topo .logo-container p {
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+#topo .logo-container img {
+  width: 182px;
+  height: auto;
+  margin-top: 35px;
+}
+
+
+
+/* destaques */
+#destaques {
+  margin-top: 190px;
+  padding-bottom: 127px;
+}
+
+#destaques .item-bullet {
+  display: inline-flex;
+  align-items: center;
+  background-color: #21170d;
+  height: 202px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#destaques .item-bullet p {
+  color: #ed8a2f;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 20px;
+}
+
+#destaques .item-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 50%;
+  width: 152px;
+  height: 152px;
+  margin-left: 8px;
+}
+
+#destaques .item-img img {
+  width: 105px;
+  height: 105px;
+}
+
+
+
+/* por que ter um site */
+#porque-ter-um-site {
+  background: url(./../img/onda.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+#porque-ter-um-site .texto-motivos {
+  margin-top: 80px;
+  padding: 0 65px 0 60px;
+  margin-bottom: 20px;
+}
+
+#porque-ter-um-site img {
+  width: 606px;
+  /* height: 475px; */
+  margin-right: auto;
+  margin-top: auto;
+  padding-bottom: 10px;
+}
+
+#porque-ter-um-site h3 {
+  color: #ed8a2f;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#porque-ter-um-site p {
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  line-height: 32px;
+  padding: 0 88px;
+}
+
+
+
+
+/* opcionais */
+#opcionais {
+  margin-top: 120px;
+}
+
+#opcionais .titulo h3 {
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  color: #ed8a2f;
+}
+
+#opcionais .titulo p {
+  font-size: 15px;
+  font-weight: 900;
+  text-align: center;
+  color: #ed8a2f;
+}
+
+#opcionais .opcao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+#opcionais .opcao h4 {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#opcionais .opcao p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#opcionais .bg-icones {
+  background: #ed8a2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 114px;
+  height: 98px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+
+#opcionais .caixa {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px 10px 0;
+  border-radius: 10px;
+  width: 296px;
+  height: 199px;
+  border: 1px;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: inset;
+}
+
+#opcionais .icones {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -50px;
+}
+
+
+
+
+/* passo a passo */
+#passo-a-passo h3 {
+  margin-top: 127px;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  color: #ed8a2f;
+  margin-bottom: 71px;
+}
+
+#passo-a-passo .num {
+  font-weight: 900;
+  font-size: 190px;
+  text-align: center;
+  color: #ed8a2f;
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+
+#passo-a-passo .losango {
+  background: url(./../img/bg-poligono.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+  padding: 30px 100px 10px;
+  height: 308px;
+}
+
+#passo-a-passo .losango p {
+  text-align: center;
+  font-size: 14px;
+  padding-left: 12px;
+  padding-top: 8px;
+}
+
+#passo-a-passo .pedidos p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+
+
+
+/* btn whatsapp */
+.whatslink {
+  position: fixed;
+  bottom: 8%;
+  right: 5%;
+  padding: 10px;
+  z-index: 999;
+}
+
+.whatslink:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+
+
+
+/* footer */
+footer {
+  background: url(./../img/bg-rodape.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 176px;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #835b35;
+  margin-top: 21px;
+}
+
+footer .social-icon:hover {
+  opacity: 0.7;
+}
+
+footer .igreja {
+  float: right;
+  margin-top: 19px;
+}
+
+
+
+/* media queries */
+
+@media (max-width: 1260px) {
+  #porque-ter-um-site img {
+    width: 450px;
+  }
+
+  #porque-ter-um-site .texto-motivos {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+
+  #passo-a-passo .losango {
+    padding: 30px 70px 10px;
+  }
+
+  #passo-a-passo .num {
+    left: -40px;
+  }
+}
+
+@media (max-width: 940px) {
+  #porque-ter-um-site {
+    flex-direction: column;
+  }
+  #porque-ter-um-site img {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  #porque-ter-um-site .texto-motivos {
+    margin-top: 10px;
+    padding: 0px 20px;
+    margin-bottom: 60px;
+  }
+
+  #porque-ter-um-site .texto-motivos p {
+    padding: 20px 20px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  #topo .logo-container p {
+    font-size: 22px;
+    margin-top: 40px;
+  }
+
+  #topo {
+    height: 525px;
+  }
+
+  #topo .logo-container h2 {
+    font-size: 34px;
+  }
+
+  #topo .logo-container h2:after {
+    width: 90%;
+  }
+
+  #passo-a-passo .num {
+    left: 35px;
+  }
+
+  #passo-a-passo .losango p {
+    padding: 0px 80px;
+  }
+
+  .whatslink {
+    right: 10px;
+  }
+}
+
+@media (max-width: 520px) {
+  #topo .logo-container h1 {
+    margin-top: 30px;
+    font-size: 35px;
+  }
+
+  #topo .logo-container h2 {
+    font-size: 30px;
+  }
+
+  #destaques {
+    margin-top: 100px;
+  }
+  #passo-a-passo .losango {
+    padding: 30px 40px 10px;
+  }
+
+  #passo-a-passo .losango p {
+    padding: 0 80px;
+  }
+
+  #passo-a-passo .num {
+    left: -10px;
+    font-size: 180px;
+  }
+}
+
+@media (max-width: 400px) {
+  #passo-a-passo .losango p {
+    padding: 0 40px;
+  }
+}
